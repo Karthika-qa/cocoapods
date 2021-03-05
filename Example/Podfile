@@ -1,9 +1,9 @@
 use_frameworks!
 
 platform :ios, '9.0'
-
+source 'https://github.com/Karthika-qa/cocoapods.git'
 target 'publicCococpodsLibrary_Example' do
-  pod 'publicCococpodsLibrary', :path => '../'
+  pod 'publicCococpodsLibrary', :path => 'https://github.com/Karthika-qa/cocoapods'
 
   target 'publicCococpodsLibrary_Tests' do
     inherit! :search_paths
