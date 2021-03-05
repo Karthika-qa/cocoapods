@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'publicCococpodsLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of publicCococpodsLibrary.'
+  s.summary          = 'This is meaningful summary of my pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/karthikaqa/publicCococpodsLibrary'
+  s.homepage         = 'https://github.com/Karthika-qa/cocoapods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'karthikaqa' => 'qa@woualabs.com' }
-  s.source           = { :git => 'https://github.com/karthikaqa/publicCococpodsLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'karthika-qa' => 'qa@woualabs.com' }
+  s.source           = { :git => 'https://github.com/Karthika-qa/cocoapods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'publicCococpodsLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'publicCococpodsLibrary' => ['publicCococpodsLibrary/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Resources' => ['publicCococpodsLibrary/Assets/image.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
